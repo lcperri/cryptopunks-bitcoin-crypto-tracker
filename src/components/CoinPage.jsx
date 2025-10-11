@@ -102,9 +102,7 @@ const CoinPage = () => {
                     </div>
                 </div>
 
-                <div className='h-64 md:h-80'>
-                    <AreaChart historicalData={chartData} currencySymbol={currentCurrency.symbol}/>
-                </div>
+                <AreaChart historicalData={chartData} currencySymbol={currentCurrency.symbol}/>
             </div>
 
             {/* VISTA PARA MÓVILES */}

@@ -73,12 +73,10 @@ const AreaChart = ( {historicalData} , currencySymbol ) => {
   }
 
   return (
-    <div className='w-full bg-gray-800/20 back-drop-blur-sm rounded-xl p-4 border border-emerald-500/20'>
-      <Chart chartType='AreaChart'
-        data={data} options={options} loader={<div className='text-emerald-400'> Cargando datos del mercado... </div>}
-        rootProps={{ 'data-testid': '1' }}
-      />
-    </div>
+    <Chart chartType='AreaChart'
+      data={data} options={options} loader={<div className='text-emerald-400'> Cargando datos del mercado... </div>}
+      rootProps={{ 'data-testid': '1' }}
+    />
   )
 }
 
