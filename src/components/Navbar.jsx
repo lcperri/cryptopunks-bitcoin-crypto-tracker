@@ -49,7 +49,7 @@ const Navbar = () => {
               className=' w-full px-6 py-3 bg-gray-800/60 border border-gray-600/30 rounded-full focus:outline-none focus:ring-2 focus:ring-emerald-500/50
               placeholder-gray-400 text-gray-200 backdrop-blur-sm ' />
 
-              <button type='submit' className=' z-10 relative right-2 top-1/2 -translate-y-1/2 px-4 py-1.5 bg-gradient-to-r 
+              <button type='submit' className='cursor-pointer z-10 relative right-2 top-1/2 -translate-y-1/2 px-4 py-1.5 bg-gradient-to-r 
               from-emerald-600 to-cyan-600 text-white rounded-full hover:scale-105 transition-all '>
                 <Search className=' w-4 h-4 pointer-events-none ' />
               </button>
