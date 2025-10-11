@@ -14,7 +14,7 @@ const Footer = () => {
             <p className='text-center text-xs md:text-sm text-gray-400 mt-2'>
                 Hecho con React, Javascript y <span> ❤ </span>
                 <br/>
-                por Lcperri para portafolio de proyectos académicos. 
+                por lcperri para portafolio de proyectos académicos. 
                 <br />
                 Huancayo - Perú.
             </p>

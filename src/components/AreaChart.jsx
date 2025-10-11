@@ -40,8 +40,8 @@ const AreaChart = ( {historicalData} , currencySymbol ) => {
         fill: 'transparent',
         opacity: 0
       },
-      width: '90%',
-      height: '80%'
+      width: '80%',
+      height: '80%',
     },
 
     colors: ['#10B981'],
@@ -73,7 +73,7 @@ const AreaChart = ( {historicalData} , currencySymbol ) => {
   }
 
   return (
-    <Chart chartType='AreaChart'
+    <Chart chartType='AreaChart' className='h-58'
       data={data} options={options} loader={<div className='text-emerald-400'> Cargando datos del mercado... </div>}
       rootProps={{ 'data-testid': '1' }}
     />
