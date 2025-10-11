@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Crypto from './pages/Crypto'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const App = () => {
   return (
