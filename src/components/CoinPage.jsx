@@ -168,7 +168,7 @@ const CoinPage = () => {
                 <div className='bg-gray-800/30 backdrop-blur-md p-4 rounded-lg md:rounded-xl border border-emerald-500/20'>
                         <div className='flex justify-between items-center'>
                             <span className='text-sm md:text-base text-emerald-400/90'>
-                                Cambio 24h
+                                Cambio en 24h
                             </span>
                             <div className='flex items-center gap-2'>
                                 <span className={` text-base md:text-lg ${coinDetails?.market_data.price_change_percentage_24h > 0 ?
@@ -185,7 +185,7 @@ const CoinPage = () => {
                 <div className='bg-gray-800/30 backdrop-blur-md p-4 rounded-lg md:rounded-xl border border-emerald-500/20'>
                     <div className='flex justify-between items-center'>
                             <span className='text-sm md:text-base text-emerald-400/90'>
-                                Volumen 24h
+                                Volumen en 24h
                             </span>
                             <span className='text-lg md:text-xl text-cyan-400'>
                                 {currentCurrency.symbol}
