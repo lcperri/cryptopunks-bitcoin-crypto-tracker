@@ -34,7 +34,7 @@ const CoinPage = () => {
                 
                 setCoinDetails(await detailsRes.json())
 
-                const chartRes = await fetch(`https://api.coingecko.com/api/v3/coins/${cryptoId}/market_chart?vs_currency=${currentCurrency.name}&days=${period}&interval=daily`,
+                const chartRes = await fetch(`https://api.coingecko.com/api/v3/coins/${cryptoId}/market_chart?vs_currency=${currentCurrency.name}&days=${period}&precision=0`,
                 requestOptions)
 
                 // console.log('request options: ', requestOptions)
